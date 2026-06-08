@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-国产老片馆</title>
+    <meta name="description" content="免费在线观看不卡顿的国产老电影，提供经典怀旧国产老片、抗战电影、文艺片高清修复版，流畅播放体验，重温经典时光">
+    <meta name="keywords" content="国产老电影,经典怀旧,抗战电影,文艺片,高清修复版,流畅播放,免费观看,不卡顿,国产老片,经典电影">
+    <link rel="stylesheet" href="./assets/css/original.css">
+    <link rel="stylesheet" href="./assets/css/site.css">
+
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="site-logo" href="./index.html" aria-label="国产老片馆">
+                    <span class="logo-mark">影</span>
+                    <span>国产老片馆</span>
+                </a>
+                <nav class="desktop-nav">
+                    <a class="" href="./index.html">首页</a>
+                    <a class="" href="./categories.html">分类</a>
+                    <a class="" href="./ranking.html">热门排行</a>
+                    <a class="active" href="./search.html">搜索</a>
+                </nav>
+                <form class="header-search" action="./search.html" method="get">
+                    <input type="search" name="q" placeholder="搜索影片、类型、地区" autocomplete="off">
+                    <button type="submit">搜索</button>
+                </form>
+                <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+            </div>
+            <div class="mobile-panel" data-mobile-panel>
+                <nav>
+                    <a class="" href="./index.html">首页</a>
+                    <a class="" href="./categories.html">分类</a>
+                    <a class="" href="./ranking.html">热门排行</a>
+                    <a class="active" href="./search.html">搜索</a>
+                    <a href="./category-classic-domestic.html">经典国产</a>
+                    <a href="./category-war-history.html">抗战历史</a>
+                    <a href="./category-literary-drama.html">文艺剧情</a>
+                    <a href="./category-suspense-crime.html">悬疑刑侦</a>
+                    <a href="./category-comedy-romance.html">喜剧爱情</a>
+                </nav>
+            </div>
+        </header>
+        <main class="page-main">
+            <section class="page-title">
+                <span class="detail-kicker">影片搜索</span>
+                <h1>搜索国产老电影、经典怀旧与高清修复佳作</h1>
+                <p>输入影片名称、年份、地区、类型或标签，快速进入对应详情页。</p>
+            </section>
+            <section class="search-panel">
+                <input type="search" placeholder="输入关键词" data-search-input>
+                <select data-search-category>
+                    <option value="">全部分类</option>
+                    <option value="经典国产">经典国产</option>
+                    <option value="抗战历史">抗战历史</option>
+                    <option value="文艺剧情">文艺剧情</option>
+                    <option value="悬疑刑侦">悬疑刑侦</option>
+                    <option value="喜剧爱情">喜剧爱情</option>
+                    <option value="科幻奇幻">科幻奇幻</option>
+                    <option value="动作冒险">动作冒险</option>
+                    <option value="惊悚恐怖">惊悚恐怖</option>
+                    <option value="动画少儿">动画少儿</option>
+                    <option value="海外精选">海外精选</option>
+                </select>
+                <button type="button" data-search-button>搜索</button>
+            </section>
+            <section class="movie-grid" data-search-results></section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <a class="site-logo" href="./index.html">
+                        <span class="logo-mark">影</span>
+                        <span>国产老片馆</span>
+                    </a>
+                    <p>免费在线观看不卡顿的国产老电影，提供经典怀旧国产老片、抗战电影、文艺片高清修复版，流畅播放体验，重温经典时光</p>
+                </div>
+                <div class="footer-links">
+                    <h2>分类导航</h2>
+                        <a href="./category-classic-domestic.html">经典国产</a>
+                        <a href="./category-war-history.html">抗战历史</a>
+                        <a href="./category-literary-drama.html">文艺剧情</a>
+                        <a href="./category-suspense-crime.html">悬疑刑侦</a>
+                        <a href="./category-comedy-romance.html">喜剧爱情</a>
+                        <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                        <a href="./category-action-adventure.html">动作冒险</a>
+                        <a href="./category-horror-thriller.html">惊悚恐怖</a>
+                        <a href="./category-animation-youth.html">动画少儿</a>
+                        <a href="./category-global-selection.html">海外精选</a>
+                </div>
+                <div class="footer-links">
+                    <h2>快速入口</h2>
+                    <a href="./index.html">首页推荐</a>
+                    <a href="./categories.html">全部分类</a>
+                    <a href="./ranking.html">热门排行</a>
+                    <a href="./search.html">影片搜索</a>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2026 国产老片馆 · 经典怀旧国产老片高清修复版流畅播放平台</div>
+        </footer>
+    </div>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/site-data.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
